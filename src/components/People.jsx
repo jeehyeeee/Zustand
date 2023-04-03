@@ -2,7 +2,7 @@ import React from "react";
 // import useStore from "../store";
 import { usePeopleStore } from "../store";
 
- function People() {
+function People() {
   const people = usePeopleStore((state) => state.people);
   return (
     <div>
@@ -15,4 +15,4 @@ import { usePeopleStore } from "../store";
     </div>
   );
 }
-export default People
+export default People;
