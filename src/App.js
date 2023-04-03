@@ -1,5 +1,3 @@
-import "./index.css";
-// import useStore from "./store";
 import People from "./components/People";
 import Input from "./components/Input";
 import { useEffect } from "react";
@@ -16,12 +14,13 @@ function App() {
     }
   }, [dark]);
   const People = useSettingsStore((state) => state.people);
+  console.log(People);
   return (
     <div className="App">
       <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
       <p>People</p>
       <Input />
-      <People />
+      {/* <People /> */}
     </div>
   );
 }

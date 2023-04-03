@@ -1,9 +1,0 @@
-# Query: PeoplesStore
-# ContextLines: 1
-
-결과 1개 - 1개 파일
-
-src/store.jsx:
-  16  
-  17: peopleStore = devtools(peopleStore);
-  18  
